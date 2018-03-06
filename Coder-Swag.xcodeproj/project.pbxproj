@@ -15,6 +15,7 @@
 		002D26FB204D81EA00F840DE /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D26FA204D81EA00F840DE /* CategoryCell.swift */; };
 		0060FB0C204EBFFF006406C0 /* ServicesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060FB0B204EBFFF006406C0 /* ServicesData.swift */; };
 		0060FB0E204EF734006406C0 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060FB0D204EF734006406C0 /* ProductCell.swift */; };
+		0060FB10204EFCCD006406C0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060FB0F204EFCCD006406C0 /* Product.swift */; };
 		008C2ADF204E4EC000E260DF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008C2ADE204E4EC000E260DF /* Category.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		002D26FA204D81EA00F840DE /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		0060FB0B204EBFFF006406C0 /* ServicesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesData.swift; sourceTree = "<group>"; };
 		0060FB0D204EF734006406C0 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		0060FB0F204EFCCD006406C0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		008C2ADE204E4EC000E260DF /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,8 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				0060FB0A204EBFE3006406C0 /* Services */,
-				002D26F9204D81AC00F840DE /* Model */,
 				002D26F8204D81A300F840DE /* View */,
+				002D26F9204D81AC00F840DE /* Model */,
 				002D26F7204D7EE600F840DE /* Controller */,
 				00229AF82044A0AF009F612A /* AppDelegate.swift */,
 				00229AFC2044A0AF009F612A /* Main.storyboard */,
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				008C2ADE204E4EC000E260DF /* Category.swift */,
+				0060FB0F204EFCCD006406C0 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				0060FB0E204EF734006406C0 /* ProductCell.swift in Sources */,
 				002D26FB204D81EA00F840DE /* CategoryCell.swift in Sources */,
 				008C2ADF204E4EC000E260DF /* Category.swift in Sources */,
+				0060FB10204EFCCD006406C0 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
