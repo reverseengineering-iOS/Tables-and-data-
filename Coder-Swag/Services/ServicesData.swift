@@ -12,17 +12,17 @@ class DataServices {
     static let instance = DataServices()
     
     private let category = [
-        Category(title: "Hoodies", imageName: "hoodies.png"),
-        Category(title: "Shirts", imageName: "shirts.png"),
-        Category(title: "Hats", imageName: "hats.png"),
-        Category(title: "Digital", imageName: "digital.png")
+        Category(title: "HODIES", imageName: "hoodies.png"),
+        Category(title: "SHIRTS", imageName: "shirts.png"),
+        Category(title: "HATS", imageName: "hats.png"),
+        Category(title: "DIGITAL", imageName: "digital.png")
     ]
     
     private let hoodies = [
         Product(price: "$32", imageName: "hoodie01.png", title: "Devslopes Logo Hoodie Grey"),
         Product(price: "$32", imageName: "hoodie02.png", title: "Devslopes Logo Hoodie Red"),
         Product(price: "$32", imageName: "hoodie03.png", title: "Devslopes Hoodie Grey"),
-        Product(price: "$32", imageName: "hoodie04.png", title: "Devslopes Hoodie Black")
+        Product(price: "$32", imageName: "hoodie04.jpg", title: "Devslopes Hoodie Black")
     ]
     
     private let shirt = [
@@ -35,9 +35,9 @@ class DataServices {
     
     private let hats = [
         Product(price: "$18", imageName: "hat01.png", title: "Devslopes Logo Graphic Benie"),
-        Product(price: "$22", imageName: "hat01.png", title: "Devslopes Logo Graphic Benie"),
-        Product(price: "$22", imageName: "hat01.png", title: "Devslopes Logo Graphic Benie"),
-        Product(price: "$20", imageName: "hat01.png", title: "Devslopes Logo Graphic Benie")
+        Product(price: "$22", imageName: "hat02.png", title: "Devslopes Logo Hat Black"),
+        Product(price: "$22", imageName: "hat03.png", title: "Devslopes Logo Hat White"),
+        Product(price: "$20", imageName: "hat04.png", title: "Devslopes Logo SnapBack")
     ]
     private let digitalGoods = [Product]()
     

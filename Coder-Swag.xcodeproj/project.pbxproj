@@ -16,6 +16,7 @@
 		0060FB0C204EBFFF006406C0 /* ServicesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060FB0B204EBFFF006406C0 /* ServicesData.swift */; };
 		0060FB0E204EF734006406C0 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060FB0D204EF734006406C0 /* ProductCell.swift */; };
 		0060FB10204EFCCD006406C0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060FB0F204EFCCD006406C0 /* Product.swift */; };
+		0060FB16204F34A2006406C0 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060FB15204F34A2006406C0 /* ProductViewController.swift */; };
 		008C2ADF204E4EC000E260DF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008C2ADE204E4EC000E260DF /* Category.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		0060FB0B204EBFFF006406C0 /* ServicesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesData.swift; sourceTree = "<group>"; };
 		0060FB0D204EF734006406C0 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		0060FB0F204EFCCD006406C0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0060FB15204F34A2006406C0 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		008C2ADE204E4EC000E260DF /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				00229AFA2044A0AF009F612A /* categoryVC.swift */,
+				0060FB15204F34A2006406C0 /* ProductViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				0060FB0E204EF734006406C0 /* ProductCell.swift in Sources */,
 				002D26FB204D81EA00F840DE /* CategoryCell.swift in Sources */,
 				008C2ADF204E4EC000E260DF /* Category.swift in Sources */,
+				0060FB16204F34A2006406C0 /* ProductViewController.swift in Sources */,
 				0060FB10204EFCCD006406C0 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
