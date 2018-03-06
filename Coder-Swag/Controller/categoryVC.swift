@@ -8,19 +8,31 @@
 
 import UIKit
 
-class categoryVC: UIViewController {
-
+class categoryVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
     @IBOutlet weak var categoryTable: UITableView!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        categoryTable.delegate = self
+        categoryTable.dataSource = self
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return DataServices.instance.getCategory().count
     }
-
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "Categorycell") as? CategoryCell {
+            let catogery = DataServices.instance.getCategory() [indexPath.row]
+            cell.updateViews(category: catogery)
+            return cell
+        } else {
+            return CategoryCell()
+        }
+    
+    }
+    
 
 }
 
