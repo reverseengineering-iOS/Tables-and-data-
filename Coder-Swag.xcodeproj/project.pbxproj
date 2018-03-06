@@ -14,6 +14,7 @@
 		00229B032044A0AF009F612A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00229B012044A0AF009F612A /* LaunchScreen.storyboard */; };
 		002D26FB204D81EA00F840DE /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D26FA204D81EA00F840DE /* CategoryCell.swift */; };
 		0060FB0C204EBFFF006406C0 /* ServicesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060FB0B204EBFFF006406C0 /* ServicesData.swift */; };
+		0060FB0E204EF734006406C0 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060FB0D204EF734006406C0 /* ProductCell.swift */; };
 		008C2ADF204E4EC000E260DF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008C2ADE204E4EC000E260DF /* Category.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		00229B042044A0AF009F612A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		002D26FA204D81EA00F840DE /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		0060FB0B204EBFFF006406C0 /* ServicesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesData.swift; sourceTree = "<group>"; };
+		0060FB0D204EF734006406C0 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		008C2ADE204E4EC000E260DF /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				002D26FA204D81EA00F840DE /* CategoryCell.swift */,
+				0060FB0D204EF734006406C0 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				00229AFB2044A0AF009F612A /* categoryVC.swift in Sources */,
 				00229AF92044A0AF009F612A /* AppDelegate.swift in Sources */,
 				0060FB0C204EBFFF006406C0 /* ServicesData.swift in Sources */,
+				0060FB0E204EF734006406C0 /* ProductCell.swift in Sources */,
 				002D26FB204D81EA00F840DE /* CategoryCell.swift in Sources */,
 				008C2ADF204E4EC000E260DF /* Category.swift in Sources */,
 			);
